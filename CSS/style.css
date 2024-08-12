@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+nav{
+    background-color:palevioletred;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+ul ,li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    
+}
+header{
+    background: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_1280.jpg);
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bo;
+}
+header a{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header p {
+    font-size: 15px;
+    text-align: center;
+    color: palevioletred;
+}
+
+header button {
+    background-color: palevioletred;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    height: 80vh;
+
+}
+aside{
+    background:palevioletred;
+    flex:1;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;justify-content: center;
+    font-weight: bold;
+}
+main{
+    background: rgb(179, 201, 57);
+    
+
+}
+footer{
+    background: lightgreen;
+    color: #fff;
+    height: 5vh;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.vdo1{
+    display: flex;
+    display: flex;
+  
+    margin: 20px;
+   
+
+}
+
+.vdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
